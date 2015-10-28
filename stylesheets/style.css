@@ -1,0 +1,222 @@
+/* css重置 */
+body{
+	padding:0;margin:0;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	overflow-Y: scroll;
+	*overflow-Y: hidden;
+	line-height: 1.5;
+}
+img{
+	border:0;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color: #8e6a55;
+}
+p{
+	padding:0;
+	margin:0;
+}
+a:hover{color: #432818}
+.container{
+	max-width: 1200px;
+	margin:0 auto;
+	min-width: 960px;
+}
+.header-wraper{
+	height: 78px;
+	border-bottom: 2px solid #e8e3dd;
+}
+.logo{
+	float: left;
+	margin-right: 20px;
+	margin-left: -10px;
+}
+.subnav ul{
+	padding-top: 46px;
+}
+.subnav ul li{
+	float: left;
+	background: url(../images/menubg.jpg) no-repeat right 5px;
+	line-height: 20px;
+}
+.subnav .last,.navmember .last{
+	background: none;
+}
+.subnav ul li a{
+	padding:0 16px;
+	display: inline-block;
+}
+.navmember ul{
+	float: right;
+}
+.navmember ul li{
+	float: left;
+	background: url(../images/menubg.jpg) no-repeat right 5px;
+	line-height: 20px;
+}
+.navmember ul li a{
+	padding:0 10px;
+	color: #b59e90;
+	display: inline-block;
+}
+.navmember ul li a:hover{
+	color: #432818;
+}
+.navmember ul li .shop-car{
+	height: 20px;
+	background: url(../images/c_shopcar.png) 0 0 no-repeat;
+	padding-left:26px;
+	margin-left: 10px;
+}
+
+/* 切换效果 */
+
+
+
+/* 切换结束 */
+.product-wrapper{
+	overflow: hidden;
+}
+.product{
+	float: left;
+	width:300px;
+	position: relative;
+}
+.product .pro-name{
+	display:block;
+	position: absolute;
+	bottom: 0px; 
+	transition: bottom 0.5s;
+	left: 0;
+	width: 280px;
+	height: 46px;
+	padding: 4px 10px 0;
+	color: #fff; 
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	background: url(../images/mb-bg.png) repeat-x 0 0; 
+	opacity: 0;
+}
+a:hover .pro-name {
+	transition: 0.5s;
+	opacity: 1;
+}
+.crumbs{
+	padding:15px 0;
+}
+.crumbs li{
+	 float: left; 
+	 padding-right: 7px;
+}
+.now{
+	color: #dacbc3;
+}
+.clearfix:after{display:block;visibility:hidden;height:0;overflow:hidden;content:"\0020";clear:both;}
+.container-wrapper{
+	margin-top: 28px;
+	overflow: hidden;
+	clear: both;
+	position: relative;
+}
+.container-wrapper .good-img{
+	float: left;
+	width: 200px;
+	height:200px;
+	margin-right: 10px;
+}
+
+.container-wrapper .good-introduce{
+ 	 float: left;  
+ 	 width: 530px;
+ 	 margin-left: 20px;
+	 margin-right: 80px;
+	padding-top: 24px;
+  overflow: hidden;
+}
+.good-introduce h3{
+	 font-weight: 400;
+	 font-size: 16px; 
+	 margin-bottom: 10px;
+}
+.good-introduce p{
+	color: #8e6a55;
+	display: inline;
+	padding-top: 10px;
+
+	}
+.container-wrapper .good-price{
+	/* position: absolute; */
+	padding-top: 100px;
+}
+.good-buy{
+	float: right;
+	margin-top: -183px; 
+	font-size: 13px;
+	/* padding:10px 0 0 68px; */
+	background-color:#FDF7F2; 
+}
+.good-buy .good-view{
+	display: block;
+	font-family: "微软雅黑";
+  	font-weight: normal;
+  	font-size: 13px;
+ 	width: 104px;
+  	background: url(../images/29.png) no-repeat 26px 15px;
+  	height: 40px;
+  	padding-top: 20px;
+  	padding-left: 68px;
+  	border-bottom: solid 1px #fff;
+  	border-top: solid 1px #fff;
+  	color: #6e3311;
+}
+.good-buy .good-car{
+	display: block;
+	font-family: "微软雅黑";
+  	font-weight: normal;
+  	font-size: 13px;
+ 	width: 104px;
+  	background: url(../images/32.png) no-repeat 26px 15px;
+  	height: 40px;
+  	padding-top: 20px;
+  	padding-left: 68px;
+  	border-bottom: solid 1px #fff;
+  	border-top: solid 1px #fff;
+  	color: #6e3311;
+}
+/* 底部样式
+ */
+.footer-wrapper{
+	border-top: 1px solid  #491903;
+	padding: 10px 20px;
+  	line-height: 1.5; 
+  	margin-top: 20px;
+  	color: #8e6a55;
+  	margin-bottom: 30px;
+  	overflow: hidden;
+}
+.footer-wrapper p{
+
+}
+.footer-wrapper a{
+	display: inline-block;
+}
+.footer-left{
+	float: left;
+}
+.footer-left img{
+
+ 	vertical-align:text-top; 
+ 	margin-top: -9px;
+ 	padding-bottom: 6px;
+}
+.footer-right{
+	float: right;
+}
